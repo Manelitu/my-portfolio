@@ -1,0 +1,27 @@
+:root {
+  --orange: #ffb884;
+  --yellow: #f5df98;
+  --white: #fff;
+  --grey: #c0d1c2;
+  --beige: #fff8d4;
+  --black-green: #00353f; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: 'Dosis', sans-serif;
+}
+
+.type-animation {
+  font-size: 50px;
+  margin-bottom: 100px;
+
+}
+
+.orange {
+  filter: invert(100);
+  color: var(--orange);
+}
