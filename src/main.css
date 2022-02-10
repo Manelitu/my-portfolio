@@ -7,6 +7,30 @@
   --black-green: #00353f; 
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #fFF #000000;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffF;
+    border-radius: 10px;
+    border: 2px solid #000000;
+  }
+
 body {
   margin: 0;
   padding: 0;

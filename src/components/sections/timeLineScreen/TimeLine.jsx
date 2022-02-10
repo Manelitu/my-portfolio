@@ -24,7 +24,7 @@ import {
 
 function TimeLine() {
   return (
-    <Section>
+    <Section className="time-line">
       <TimelineTitle>
         Timeline about my developer life
       </TimelineTitle>
@@ -32,7 +32,7 @@ function TimeLine() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentArrowStyle={{ borderRight: '7px solid #EA2D2E' }}
-          contentStyle={{ borderTop: '2px solid #EA2D2E' }}
+          contentStyle={{ borderTop: '2px solid #EA2D2E', boxShadow: '0px 5px 5px #bbb' }}
           date="2017"
           iconStyle={{ background: '#eee' }}
           icon={<Java />}
@@ -45,7 +45,7 @@ function TimeLine() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentArrowStyle={{ borderRight: '7px solid #659AD3' }}
-          contentStyle={{ borderTop: '2px solid #659AD3' }}
+          contentStyle={{ borderTop: '2px solid #659AD3', boxShadow: '0px 5px 5px #bbb' }}
           date="2018 - 2019"
           iconStyle={{ background: '#eee' }}
           icon={<C />}
@@ -58,7 +58,7 @@ function TimeLine() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentArrowStyle={{ borderRight: '7px solid #888' }}
-          contentStyle={{ borderTop: '2px solid #888' }}
+          contentStyle={{ borderTop: '2px solid #888', boxShadow: '0px 5px 5px #bbb' }}
           date="2020"
           iconStyle={{ background: '#eee' }}
           icon={<WebDevelopment />}
@@ -71,7 +71,7 @@ function TimeLine() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentArrowStyle={{ borderRight: '7px solid #F0DB4F' }}
-          contentStyle={{ borderTop: '2px solid #F0DB4F' }}
+          contentStyle={{ borderTop: '2px solid #F0DB4F', boxShadow: '0px 5px 5px #bbb' }}
           date="Nov 2020 - 2021"
           iconStyle={{ background: '#eee' }}
           icon={<Javascript />}
@@ -84,7 +84,7 @@ function TimeLine() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentArrowStyle={{ borderRight: '7px solid #61DAFB' }}
-          contentStyle={{ borderTop: '2px solid #61DAFB' }}
+          contentStyle={{ borderTop: '2px solid #61DAFB', boxShadow: '0px 5px 5px #bbb' }}
           date="Dec 2021 - currently"
           iconStyle={{ background: '#eee' }}
           icon={<ReactIcon />}
